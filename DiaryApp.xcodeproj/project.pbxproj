@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37C37B612D7720300006B161 /* DiaryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C37B602D7720300006B161 /* DiaryAppApp.swift */; };
+		37C37B652D7720320006B161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C37B642D7720320006B161 /* Assets.xcassets */; };
+		37C37B682D7720320006B161 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C37B672D7720320006B161 /* Preview Assets.xcassets */; };
+		37C37B722D7720330006B161 /* DiaryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C37B712D7720330006B161 /* DiaryAppTests.swift */; };
+		37C37B7C2D7720330006B161 /* DiaryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C37B7B2D7720330006B161 /* DiaryAppUITests.swift */; };
+		37C37B7E2D7720330006B161 /* DiaryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C37B7D2D7720330006B161 /* DiaryAppUITestsLaunchTests.swift */; };
+		37C37B8B2D77223F0006B161 /* DiaryStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C37B8A2D77223F0006B161 /* DiaryStruct.swift */; };
+		37C37B902D7724CA0006B161 /* DiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C37B8F2D7724CA0006B161 /* DiaryViewModel.swift */; };
+		37C37B922D7731ED0006B161 /* DiaryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C37B912D7731ED0006B161 /* DiaryListView.swift */; };
+		37C37B942D7739460006B161 /* NewDiaryEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C37B932D7739460006B161 /* NewDiaryEntryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37C37B6E2D7720330006B161 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37C37B552D7720300006B161 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37C37B5C2D7720300006B161;
+			remoteInfo = DiaryApp;
+		};
+		37C37B782D7720330006B161 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37C37B552D7720300006B161 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37C37B5C2D7720300006B161;
+			remoteInfo = DiaryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37C37B5D2D7720300006B161 /* DiaryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C37B602D7720300006B161 /* DiaryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAppApp.swift; sourceTree = "<group>"; };
+		37C37B642D7720320006B161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37C37B672D7720320006B161 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37C37B6D2D7720330006B161 /* DiaryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C37B712D7720330006B161 /* DiaryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAppTests.swift; sourceTree = "<group>"; };
+		37C37B772D7720330006B161 /* DiaryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C37B7B2D7720330006B161 /* DiaryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAppUITests.swift; sourceTree = "<group>"; };
+		37C37B7D2D7720330006B161 /* DiaryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37C37B8A2D77223F0006B161 /* DiaryStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryStruct.swift; sourceTree = "<group>"; };
+		37C37B8F2D7724CA0006B161 /* DiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewModel.swift; sourceTree = "<group>"; };
+		37C37B912D7731ED0006B161 /* DiaryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListView.swift; sourceTree = "<group>"; };
+		37C37B932D7739460006B161 /* NewDiaryEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDiaryEntryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37C37B5A2D7720300006B161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C37B6A2D7720330006B161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C37B742D7720330006B161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37C37B542D7720300006B161 = {
+			isa = PBXGroup;
+			children = (
+				37C37B5F2D7720300006B161 /* DiaryApp */,
+				37C37B702D7720330006B161 /* DiaryAppTests */,
+				37C37B7A2D7720330006B161 /* DiaryAppUITests */,
+				37C37B5E2D7720300006B161 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37C37B5E2D7720300006B161 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37C37B5D2D7720300006B161 /* DiaryApp.app */,
+				37C37B6D2D7720330006B161 /* DiaryAppTests.xctest */,
+				37C37B772D7720330006B161 /* DiaryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37C37B5F2D7720300006B161 /* DiaryApp */ = {
+			isa = PBXGroup;
+			children = (
+				37C37B8E2D7724970006B161 /* Views */,
+				37C37B8D2D77248E0006B161 /* ViewModels */,
+				37C37B8C2D7724850006B161 /* Models */,
+				37C37B602D7720300006B161 /* DiaryAppApp.swift */,
+				37C37B642D7720320006B161 /* Assets.xcassets */,
+				37C37B662D7720320006B161 /* Preview Content */,
+			);
+			path = DiaryApp;
+			sourceTree = "<group>";
+		};
+		37C37B662D7720320006B161 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				37C37B672D7720320006B161 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37C37B702D7720330006B161 /* DiaryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				37C37B712D7720330006B161 /* DiaryAppTests.swift */,
+			);
+			path = DiaryAppTests;
+			sourceTree = "<group>";
+		};
+		37C37B7A2D7720330006B161 /* DiaryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37C37B7B2D7720330006B161 /* DiaryAppUITests.swift */,
+				37C37B7D2D7720330006B161 /* DiaryAppUITestsLaunchTests.swift */,
+			);
+			path = DiaryAppUITests;
+			sourceTree = "<group>";
+		};
+		37C37B8C2D7724850006B161 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37C37B8A2D77223F0006B161 /* DiaryStruct.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		37C37B8D2D77248E0006B161 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				37C37B8F2D7724CA0006B161 /* DiaryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		37C37B8E2D7724970006B161 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37C37B912D7731ED0006B161 /* DiaryListView.swift */,
+				37C37B932D7739460006B161 /* NewDiaryEntryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37C37B5C2D7720300006B161 /* DiaryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C37B812D7720330006B161 /* Build configuration list for PBXNativeTarget "DiaryApp" */;
+			buildPhases = (
+				37C37B592D7720300006B161 /* Sources */,
+				37C37B5A2D7720300006B161 /* Frameworks */,
+				37C37B5B2D7720300006B161 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiaryApp;
+			productName = DiaryApp;
+			productReference = 37C37B5D2D7720300006B161 /* DiaryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37C37B6C2D7720330006B161 /* DiaryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C37B842D7720330006B161 /* Build configuration list for PBXNativeTarget "DiaryAppTests" */;
+			buildPhases = (
+				37C37B692D7720330006B161 /* Sources */,
+				37C37B6A2D7720330006B161 /* Frameworks */,
+				37C37B6B2D7720330006B161 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37C37B6F2D7720330006B161 /* PBXTargetDependency */,
+			);
+			name = DiaryAppTests;
+			productName = DiaryAppTests;
+			productReference = 37C37B6D2D7720330006B161 /* DiaryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37C37B762D7720330006B161 /* DiaryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C37B872D7720330006B161 /* Build configuration list for PBXNativeTarget "DiaryAppUITests" */;
+			buildPhases = (
+				37C37B732D7720330006B161 /* Sources */,
+				37C37B742D7720330006B161 /* Frameworks */,
+				37C37B752D7720330006B161 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37C37B792D7720330006B161 /* PBXTargetDependency */,
+			);
+			name = DiaryAppUITests;
+			productName = DiaryAppUITests;
+			productReference = 37C37B772D7720330006B161 /* DiaryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37C37B552D7720300006B161 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					37C37B5C2D7720300006B161 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					37C37B6C2D7720330006B161 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 37C37B5C2D7720300006B161;
+					};
+					37C37B762D7720330006B161 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 37C37B5C2D7720300006B161;
+					};
+				};
+			};
+			buildConfigurationList = 37C37B582D7720300006B161 /* Build configuration list for PBXProject "DiaryApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37C37B542D7720300006B161;
+			productRefGroup = 37C37B5E2D7720300006B161 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37C37B5C2D7720300006B161 /* DiaryApp */,
+				37C37B6C2D7720330006B161 /* DiaryAppTests */,
+				37C37B762D7720330006B161 /* DiaryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37C37B5B2D7720300006B161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C37B682D7720320006B161 /* Preview Assets.xcassets in Resources */,
+				37C37B652D7720320006B161 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C37B6B2D7720330006B161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C37B752D7720330006B161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37C37B592D7720300006B161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C37B942D7739460006B161 /* NewDiaryEntryView.swift in Sources */,
+				37C37B902D7724CA0006B161 /* DiaryViewModel.swift in Sources */,
+				37C37B8B2D77223F0006B161 /* DiaryStruct.swift in Sources */,
+				37C37B922D7731ED0006B161 /* DiaryListView.swift in Sources */,
+				37C37B612D7720300006B161 /* DiaryAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C37B692D7720330006B161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C37B722D7720330006B161 /* DiaryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C37B732D7720330006B161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C37B7E2D7720330006B161 /* DiaryAppUITestsLaunchTests.swift in Sources */,
+				37C37B7C2D7720330006B161 /* DiaryAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37C37B6F2D7720330006B161 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37C37B5C2D7720300006B161 /* DiaryApp */;
+			targetProxy = 37C37B6E2D7720330006B161 /* PBXContainerItemProxy */;
+		};
+		37C37B792D7720330006B161 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37C37B5C2D7720300006B161 /* DiaryApp */;
+			targetProxy = 37C37B782D7720330006B161 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37C37B7F2D7720330006B161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37C37B802D7720330006B161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37C37B822D7720330006B161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiaryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = J77NJ5N3N7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = greg.DiaryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37C37B832D7720330006B161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiaryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = J77NJ5N3N7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = greg.DiaryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37C37B852D7720330006B161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = greg.DiaryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiaryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiaryApp";
+			};
+			name = Debug;
+		};
+		37C37B862D7720330006B161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = greg.DiaryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiaryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiaryApp";
+			};
+			name = Release;
+		};
+		37C37B882D7720330006B161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = greg.DiaryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiaryApp;
+			};
+			name = Debug;
+		};
+		37C37B892D7720330006B161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = greg.DiaryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiaryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37C37B582D7720300006B161 /* Build configuration list for PBXProject "DiaryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C37B7F2D7720330006B161 /* Debug */,
+				37C37B802D7720330006B161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C37B812D7720330006B161 /* Build configuration list for PBXNativeTarget "DiaryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C37B822D7720330006B161 /* Debug */,
+				37C37B832D7720330006B161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C37B842D7720330006B161 /* Build configuration list for PBXNativeTarget "DiaryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C37B852D7720330006B161 /* Debug */,
+				37C37B862D7720330006B161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C37B872D7720330006B161 /* Build configuration list for PBXNativeTarget "DiaryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C37B882D7720330006B161 /* Debug */,
+				37C37B892D7720330006B161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37C37B552D7720300006B161 /* Project object */;
+}
